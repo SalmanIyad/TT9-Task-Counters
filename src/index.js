@@ -11,4 +11,3 @@ root.render(
     <CountersPage />
   </React.StrictMode>
 );
-
