@@ -15,5 +15,5 @@ Mohammed shoman | 26 Jun
 ![Screenshot](https://github.com/SalmanIyad/TT9-Task-Counters/assets/110406908/207c5f68-4152-4d84-a07a-2d7891dcdfbf)
 
 ## Link of Deploy: 
-https://salmaniyad.github.io/TT9-Task-Counters/
+https://tt9-task-counters.netlify.app/
 
