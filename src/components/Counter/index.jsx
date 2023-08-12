@@ -7,6 +7,7 @@ export default class Counter extends Component {
   };
 
   handleIncrease = () => {
+    console.log(this.state.counter + " - handleIncrease");
     this.setState(
       (prevState) => ({
         counter: prevState.counter + 1,
@@ -18,14 +19,17 @@ export default class Counter extends Component {
   };
 
   handleDecrease = () => {
-    this.setState(
-      (prevState) => ({
-        counter: prevState.counter - 1,
-      }),
-      () => {
-        this.props.onChange(-1);
-      }
-    );
+    console.log(this.state.counter + " - handleDecrease");
+    if (this.state.counter >= 1){  // to prevent the counter of decrease under 0.
+      this.setState(
+        (prevState) => ({
+          counter: prevState.counter - 1,
+        }),
+        () => {
+          this.props.onChange(-1);
+        }
+      );
+    }
   };
 
   render() {
