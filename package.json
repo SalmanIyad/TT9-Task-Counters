@@ -1,6 +1,5 @@
 {
-  "homepage": "https://SalmanIyad.github.io/TT9-Task-Counters",
-  "name": "TT9-Task-Counters",
+  "name": "tt9-task-counters",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,8 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
